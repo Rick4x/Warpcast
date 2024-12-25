@@ -1,0 +1,21 @@
+await fetch("https://play.farcade.ai/games/7?from=%2F", {
+  "headers": {
+    "accept": "text/x-component",
+    "accept-language": "en-US,en;q=0.9,vi;q=0.8",
+    "content-type": "text/plain;charset=UTF-8",
+    "next-action": "4028728d997be23e7fa3fbba44397311563a9ca6f1",
+    "next-router-state-tree": "%5B%22%22%2C%7B%22children%22%3A%5B%22games%22%2C%7B%22children%22%3A%5B%5B%22id%22%2C%227%22%2C%22d%22%5D%2C%7B%22children%22%3A%5B%22__PAGE__%3F%7B%5C%22from%5C%22%3A%5C%22%2F%5C%22%7D%22%2C%7B%7D%2C%22%2Fgames%2F7%3Ffrom%3D%252F%22%2C%22refresh%22%5D%7D%5D%7D%5D%7D%2Cnull%2Cnull%2Ctrue%5D",
+ 
+    "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin"
+  },
+  "referrer": "https://play.farcade.ai/games/7?from=%2F",
+
+  "body": "[{\"gameId\":\"7\",\"score\":100,\"challengeId\":\"$undefined\"}]",
+  "method": "POST",
+ 
+});
